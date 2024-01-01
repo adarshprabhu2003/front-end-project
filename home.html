@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adarsh - Web Page Project</title>
+    <style>
+        /* Additional styles for navigation buttons */
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #2980b9;
+        }
+
+        /* Additional styles for home page content */
+        #homeContent {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        #homeContent h2 {
+            color: #333;
+        }
+
+        #homeContent p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Adarsh's Web Page Project</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- New styled navigation buttons above the form -->
+            <li><a href="home.html">Home</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+    <section id="homeContent">
+        <h2>Hello, I'm Adarsh!</h2>
+        <p>I'm currently in my 3rd year of Computer Science Engineering. This web page project is a platform where I showcase my journey and share my knowledge in various programming languages and web technologies.</p>
+        <p>Here's a quick overview of my skills:</p>
+        <ul>
+            <li>Programming Languages: C, C++, Java, HTML, CSS</li>
+            <li>Linguistic Abilities: Hindi, Kannada English, Konkani</li>
+        </ul>
+        <p>Feel free to explore and learn more about my projects and experiences. If you have any questions or would like to connect, you can reach me at:</p>
+        <ul>
+            <li>Mobile Number: 6362693541</li>
+            <li>Email: prabhuadi2020@gmail.com</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; Adarsh, <span id="currentYears"></span></p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>    
+</body>
+</html>

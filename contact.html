@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Adarsh R Prabhu</title>
+  <style>
+    
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #2980b9;
+    }
+
+    
+    #contactContent {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 20px;
+    }
+
+    #contactContent h2 {
+      color: #333;
+    }
+
+    #contactContent p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    #contactContent ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #contactContent li {
+      margin-bottom: 10px;
+    }
+
+    #contactContent img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Adarsh R Prabhu</h1>
+  </header>
+  <nav>
+    <ul>
+      
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="contactContent">
+    <h2>Get in Touch with Adarsh R Prabhu</h2>
+    <p>If you'd like to connect or have any questions, feel free to reach out using the contact details below:</p>
+    <ul>
+      <li><strong>Mobile Number:</strong> 6362693541</li>
+      <li><strong>College:</strong> EWIT</li>
+      <li><strong>Address:</strong> Rajajinagar 6th Block</li>
+    </ul>
+    <p>Whether it's about technology, projects, or just a friendly chat, I'm always open to new opportunities and conversations. Looking forward to hearing from you!</p>
+    
+  </section>
+  <footer>
+    <p>&copy; Adarsh R Prabhu, <span id="currentYear"></span></p>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

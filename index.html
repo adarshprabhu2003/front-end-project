@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title> Web Page Assignment</title>
+  <style>
+    /* Additional styles for navigation buttons */
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Web Page Assignment</h1>
+  </header>
+  <nav>
+    <ul>
+      <!-- New styled navigation buttons above the form -->
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <form id="userForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="resultsContainer"></div>
+    <button id="generateRandomNumberBtn">Generate Random Number</button>
+    <button id="changeColorBtn">Change Background Color</button>
+  </section>
+  <footer>
+    <p>&copy; Adarsh R Prabhu, <span id="currentYear"></span></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
